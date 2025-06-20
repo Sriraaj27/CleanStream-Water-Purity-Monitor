@@ -1,0 +1,113 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Gradient Background */
+    color: #333;
+}
+
+header {
+    background-color: #0077b6; /* Darker Blue */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Increased space below the header */
+}
+
+header .logo {
+    font-size: 32px; /* Increased font size */
+    font-weight: bold;
+    padding: 35px 70px; /* Increased padding for more space */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e0f7fa; /* Light Cyan */
+}
+
+.cta-button {
+    background-color: #0077b6; /* Matching Header */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background: #005f8a; /* Darker shade on hover */
+}
+
+.data-section, .community-section, .about-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Align metrics vertically */
+.data-metrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; /* Increased spacing between elements */
+    width: 100%; /* Increased width by 15% */
+    max-width: 1150px; /* Increased max width */
+    margin: auto;
+}
+
+/* Increase width for metric */
+.metric {
+    width: 100%; /* Increased width by 15% */
+    max-width: 920px; /* Increased max width */
+    background: #f8f9fa;
+    padding: 25px; /* Increase padding */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 25px; /* More space between image and text */
+}
+
+/* Make the image fit better inside metric */
+.metric img {
+    width: 400px; /* Increase image width */
+    height: 225px; /* Increased height proportionally */
+    border-radius: 8px;
+}
+
+/* Ensure text container takes remaining space */
+.metric-content {
+    flex-grow: 1; /* Allow text to fill available space */
+}
+
+footer {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
